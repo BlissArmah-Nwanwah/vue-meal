@@ -2,9 +2,9 @@
 export function setSearchedMeals(state, meals) {
   state.serachedMeals = meals;
 }
-export function setSearchedMeals(state, meals) {
-  state.serachedMeals = meals;
+export function setMealsByLetter(state, meals) {
+  state.mealsByLetter = meals;
 }
-export function setSearchedMeals(state, meals) {
-  state.serachedMeals = meals;
+export function setMealsByIngredient(state, meals) {
+  state.mealsByIngredient = meals;
 }
